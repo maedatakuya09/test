@@ -78,9 +78,3 @@ GitHubの公式README(oga114/kintone-devkit)の内容を確認したうえで、
 社内共有前に、実際の開発環境で手順通りに動作するか一度リハーサルすることを推奨。
 
 ---
-
-## Q3. この会話をマークダウンにできますか
-
-**A.**
-
-本ファイル（`conversation_kintone-devkit.md`）として、これまでの会話内容をMarkdown形式にまとめました。
