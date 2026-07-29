@@ -77,7 +77,7 @@ npm --version
 作業用のフォルダを決め、ターミナルでそのフォルダに移動してから、以下を実行します。
 
 ```bash
-git clone <http://192.168.0.154/advanced-tech/kintone-dev-kit>
+git clone http://192.168.0.154/advanced-tech/kintone-dev-kit
 cd <クローンされたフォルダ名>
 ```
 
