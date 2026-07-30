@@ -155,7 +155,6 @@ cp customize-manifest.example.json customize-manifest.json
 
 ### 5.3 開発の実践フロー
 
-*(挿入位置: ここに「編集 → watch → 目視確認 → build:upload」のサイクル図)*
 
 1. `src/customize/` のファイルを編集
 2. 開発中は `npm run watch` でウォッチビルドしながら確認
@@ -206,7 +205,6 @@ src/plugin/
 
 ### 6.2 実践フロー(サンプルプロジェクトの例)
 
-*(挿入位置: ここに「manifest編集 → src実装 → build → 秘密鍵生成/署名 → 開発環境で動作確認 → upload」の一連の流れを示すフローチャート)*
 
 1. `src/plugin/manifest.json` にプラグイン名・説明・アイコン等を設定
 2. `src/plugin/src/desktop.ts`(画面用)、`config.ts`(設定画面用)を実装
