@@ -14,7 +14,6 @@ kintone-devkitは、kintone(サイボウズのクラウド業務改善ツール)
 GitHubリポジトリ: `oga114/kintone-devkit`。TypeScript + Viteベースで作られており、開発者が作者自身のkintone開発の課題を解決するためにClaude Codeを使って作成したOSSツールとのことです。
 
 **主な機能**
-
 - 🔥 **ホットリロード**: ファイル保存時に自動でビルド・アップロードされる
 - 🔌 **プラグイン開発**: 署名、パッケージング、アップロードを自動化
 - 📋 **スキーマ管理**: 環境間の差分を検出し、デプロイを管理
@@ -29,13 +28,12 @@ kintoneのJavaScriptカスタマイズやプラグイン開発を、モダンな
 
 ## User
 
-_(README.md, setup.md, mcp.md, CLAUDE.md, settings.json, claude-tips.md をアップロード)_
+*(README.md, setup.md, mcp.md, CLAUDE.md, settings.json, claude-tips.md をアップロード)*
 
 このkintone-devkitフォルダ内のmdファイルを参考に、
 社内メンバー向けの環境構築マニュアルをMarkdown形式で作成してください。
 対象:Git/Node.jsにまだ慣れていないメンバー
 含めてほしい章:
-
 1. kintone dev kitとは何か
 2. 環境構築手順
 
@@ -46,7 +44,7 @@ _(README.md, setup.md, mcp.md, CLAUDE.md, settings.json, claude-tips.md をア�
 
 ## Claude
 
-_(kintone-devkit\_環境構築マニュアル.md を作成・提示)_
+*(kintone-devkit_環境構築マニュアル.md を作成・提示)*
 
 README.mdとsetup.mdをベースに、初心者がつまずきやすいポイント(用語解説、`.env`が最初から存在しない理由、ビルド確認方法など)を補足しながらマニュアルを作成しました。
 
@@ -67,7 +65,7 @@ README.mdとsetup.mdをベースに、初心者がつまずきやすいポイン
 
 ## Claude
 
-_(マニュアルの2.4節に「認証情報をリポジトリの外に置く方法(推奨)」というサブセクションを追加)_
+*(マニュアルの2.4節に「認証情報をリポジトリの外に置く方法(推奨)」というサブセクションを追加)*
 
 2.4節に「認証情報をリポジトリの外に置く方法(推奨)」というサブセクションを追加しました。Windows/Mac それぞれの具体的なパス例、`ENV_FILE_REDIRECT`の書き方、確認方法までを、初心者でも迷わないよう手順化しています。
 
@@ -79,19 +77,17 @@ _(マニュアルの2.4節に「認証情報をリポジトリの外に置く方
 
 ## Claude
 
-_(マニュアルに3章「プラグイン開発」、4章「MCP連携」を新設し、旧3章を5章に繰り下げ)_
+*(マニュアルに3章「プラグイン開発」、4章「MCP連携」を新設し、旧3章を5章に繰り下げ)*
 
 マニュアルに以下を追加しました。
 
 **3章 プラグイン開発**
-
 - カスタマイズ開発との違い(表で比較)
 - ディレクトリ構成、ビルド/アップロードコマンド
 - コンパイルレベル(`WHITESPACE_ONLY`/`SIMPLE`/`ADVANCED`)の説明
 - 秘密鍵`private.ppk`の扱い(紛失時のリスク、新規/既存プラグインでの扱いの違い)
 
 **4章 MCP連携**
-
 - MCPの概要説明(初心者向け)
 - `.mcp.json`のセットアップ手順
 - `@kintone/mcp-server`と`@playwright/mcp`の役割
