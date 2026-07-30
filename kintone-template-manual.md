@@ -36,7 +36,6 @@
 
 > 💡 **AIを使わない場合**: `CLAUDE.md` と `.claude/` を無視・削除すれば、通常の TypeScript + esbuild + customize-uploader のテンプレートとしてそのまま使えます。
 
-*(挿入位置: ここにテンプレート全体のアーキテクチャ図 — CLAUDE.md/settings.jsonがClaude Codeの挙動を制御し、esbuildがsrc→distをビルドし、uploaderがkintoneへ送る、という関係を示す図)*
 
 ---
 
