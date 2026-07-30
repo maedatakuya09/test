@@ -32,7 +32,7 @@ kintoneのJavaScriptカスタマイズやプラグイン開発を、モダンな
 
 このkintone-devkitフォルダ内のmdファイルを参考に、
 社内メンバー向けの環境構築マニュアルをMarkdown形式で作成してください。
-対象読者:Git/Node.jsにまだ慣れていないメンバー
+対象:Git/Node.jsにまだ慣れていないメンバー
 含めてほしい章:
 1. kintone dev kitとは何か
 2. 環境構築手順
